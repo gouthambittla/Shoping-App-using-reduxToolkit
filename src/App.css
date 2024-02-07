@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.display {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.arrage{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.display h5 {
+  margin: 5px 0;
+}
+
+.display button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.display button:hover {
+  background-color: #0056b3;
+}
